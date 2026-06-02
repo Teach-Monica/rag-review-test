@@ -12,3 +12,4 @@ def get_all_users():
     cursor.execute("SELECT * FROM users")
     return cursor.fetchall()
 # test change
+# another change
